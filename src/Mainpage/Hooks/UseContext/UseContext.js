@@ -13,12 +13,12 @@ const UseContext = () => {
       <p className={app_styles.p}>
         useContext能夠不論父子層關係 ，互相傳遞值或function等各種數據的方式
       </p>
-      <h2 className={app_styles.h2}>sept1.</h2>
+      <h2 className={app_styles.h2}>步驟1:</h2>
       <ReactEmbedGist
         wrapperClass={app_styles.gist}
         gist="tom-riddle-sr/e721093b2182d74b073585b3b875c5e0"
       />
-         <h2 className={app_styles.h2}>sept2.</h2>
+         <h2 className={app_styles.h2}>步驟2:</h2>
       <ReactEmbedGist
         wrapperClass={app_styles.gist}
         gist="tom-riddle-sr/bbb9ebf2fdb1feaf84da93acbce64f1d"

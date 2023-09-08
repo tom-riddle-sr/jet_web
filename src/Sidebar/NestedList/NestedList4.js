@@ -62,7 +62,7 @@ const NestedList4 = (props) => {
             }}
           >
             <img className={styles.cat_icon} src={Cat} alt="cat"></img>
-            <p className={styles.li_text}>page</p>
+            <p className={styles.li_text}>pages</p>
           </div>
           <div
             className={styles.li_box}
