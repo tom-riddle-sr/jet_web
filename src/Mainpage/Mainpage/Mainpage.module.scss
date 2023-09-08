@@ -1,0 +1,128 @@
+.mainpage {
+    background-color: rgb(220, 222, 201);
+    width: 80vw;
+    padding-top: 5vh;
+}
+
+.intro_box {
+    width: 80vw;
+    // height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #666666;
+}
+
+.p1 {
+    font-size: 3vw;
+    margin-bottom: 3vh;
+}
+.p2 {
+    font-size: 2vw;
+    margin-bottom: 2vh;
+}
+.disappear {
+    display: none;
+}
+.wallcat {
+    position: fixed;
+    transform: rotate(270deg);
+    right: 25vw;
+    bottom: 5vh;
+    width: 18vw;
+    z-index: 2;
+}
+.wallcat:hover {
+    position: fixed;
+    transform: rotate(270deg);
+    right: 21.5vw;
+    bottom: 5vh;
+    width: 18vw;
+    z-index: 2;
+}
+.wallcat2 {
+    position: fixed;
+    transform: rotate(270deg);
+    right: -7vw;
+    bottom: 5vh;
+    width: 18vw;
+    z-index: 3;
+}
+.wallcat2:hover {
+    position: fixed;
+    transform: rotate(270deg);
+    right: -3vw;
+    bottom: 5vh;
+    width: 18vw;
+    z-index: 3;
+}
+.mailbox {
+    position: fixed;
+    width: 27vw;
+    height: 40vh;
+    // background-color: #6b6853;
+    z-index: 3;
+    bottom: 5vh;
+    right: 6vw;
+    border-radius: 10px;
+}
+
+.square {
+    width: 23vw;
+    height: 40vh;
+    background-color: rgb(83, 36, 200);
+    z-index: 2;
+    // bottom: 5vh;
+    right: 0vw;
+    border-radius: 10px 10px 0px 0px;
+    // border: 2px solid #6b6853;
+    background-color: white;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mailname,
+.mailname_input,
+.mailmail,
+.mailmail_input,
+.mailquestion,
+.mailquestion_input {
+    margin-bottom: 1vh;
+}
+.mailname,
+.mailmail,
+.mailquestion {
+    color: #666666;
+}
+.mailname_input,
+.mailmail_input,
+.mailquestion_input {
+    border: none;
+    background-color: #6b6853;
+    border-radius: 5px;
+    color: white;
+    padding-left: 0.5vw;
+}
+.mailquestion_input {
+    height: 10vh;
+}
+.mailbutton {
+    background-color: #6b6853;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    width: 3vw;
+
+    margin-top: 3vh;
+}
+.disappear {
+    display: none;
+}
+
+.top {
+    margin-top: 50vw;
+}

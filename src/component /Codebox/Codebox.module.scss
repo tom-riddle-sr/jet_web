@@ -1,0 +1,18 @@
+.codebox {
+    width: 70vw;
+    height: 10vh;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 5vh;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+
+   .code {
+        color: #666666;
+        font-size: 1vw;
+        margin-left: 1vw;
+    }
+}

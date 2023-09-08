@@ -1,0 +1,31 @@
+.sidebar {
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #6b6853;
+    overflow: scroll;
+    min-height: 100vh;
+
+}
+.sidebar_div1 {
+    margin-top: 2vh;
+    font-size: 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  
+}
+
+.logo{
+    width: 20vw;
+    transform: rotate(180deg);
+    position: absolute;
+    top: -1%;
+}
+.title {
+    font-family: "Noto Sans TC", sans-serif;
+    color: white;
+    margin-top: 15vh;
+}
